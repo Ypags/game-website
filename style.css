@@ -243,7 +243,7 @@ width: 820px;
 /* Секция с изображением */
 
 .features {
-    background: url(/img/BG.png) no-repeat center center fixed;
+    background: url(./img/BG.png) no-repeat center center fixed;
     background-size: cover;
     padding: 80px 0;
 }
