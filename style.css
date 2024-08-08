@@ -399,7 +399,7 @@ width: 820px;
     background-color: #8f4f0a;
 }
 
-/*=================== Страница про нас ===================*/
+/*====================== Страница про нас ======================*/
 
 .hero-about{
     position: relative;
@@ -540,7 +540,379 @@ margin: 40px 0;
     padding: 10px 0;
 }
 
-/*=================== Страница контакты ===================*/
+/*====================== Страница Портфолио ======================*/
+
+.hero-portfolio h1 {
+    font-size: 33px;
+    font-weight: 600;
+    text-align: center;
+    margin: 70px 0 30px 0;
+}
+
+.hero-portfolio p {
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.hero-about-portfolio {
+    background-color: #1C140F;
+    width: 1140px;
+    border-radius: 10px;
+    margin: 0 auto 150px auto;
+}
+
+.hero-about-portfolio .blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-about-portfolio .blocks .block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.hero-about-portfolio .blocks .block h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.hero-about-portfolio .blocks .block h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hero-about-portfolio .blocks hr {
+    height: 120px;
+}
+
+.hero-about-portfolio .blocks .block img {
+    margin-right: 35px;
+}
+
+/*Обзац с видео*/
+
+.hero-video {
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.hero-video .video-info {
+    margin-left: 120px;
+    width: 420px;
+}
+
+.hero-video .video-info h2 {
+    font-size: 30px;
+    line-height: 55px;
+    margin-bottom: 5%;
+}
+
+.hero-video .video-info p {
+    margin-bottom: 7%;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.hero-video .video-info ul {
+    list-style: none;
+}
+
+.hero-video .video-info ul li {
+    margin: 4% 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.hero-video .video-info ul li img {
+    margin-right: 15px;
+}
+
+/*Обзац с игрой риад море*/
+
+.game-readmore {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+
+.game-readmore .game-info-readmore {
+    width: 530px;
+}
+
+.game-readmore .game-info-readmore h2 {
+    width: 470px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.game-readmore .game-info-readmore p {
+    font-size: 17px;
+    margin: 50px 0;
+}
+
+.game-readmore .game-info-readmore h4 {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.game-readmore .game-info-readmore a {
+    background: #DC7000;
+    color: white;
+    border-radius: 2px;
+    padding: 13px 40px;
+    border: 0;
+    transition: all 500ms ease;
+}
+
+.game-readmore .game-info-readmore a:hover {
+    cursor: pointer;
+    background: #961414;
+}
+
+/*Наши отзывы*/
+
+.feedback-now {
+    background-color: #1C140F;
+    margin-bottom: 150px;
+}
+
+.feedback-now .feedbacks {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.feedback-now h2 {
+    padding-top: 90px;
+    font-size: 35px;
+    margin: 0 auto;
+    text-align: center;
+    width: 440px;
+}
+
+.feedback-now h3 {
+    font-size: 14px;
+    margin: 20px auto;
+    text-align: center;
+    width: 555px;
+    font-weight: 400;
+}
+.feedback-now .feedbacks .block.active{
+    background-color: #0F0901;
+    width: 26%;
+    border: 2px #DC7000 solid;
+    border-radius: 10px;
+    padding: 23px 30px;
+}
+
+.feedback-now .feedbacks .block {
+    background-color: #0F0901;
+    width: 26%;
+    border: 2px #fff solid;
+    border-radius: 10px;
+    padding: 23px 30px;
+}
+
+.feedback-now .feedbacks .block h5{
+    font-size: 14px;
+    color: #4F5665;
+}
+
+.feedback-now .feedbacks .block h6{
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.feedback-now .feedbacks .block .feedback-info-user {
+    display: flex;
+    align-items: center;
+}
+
+.feedback-now .feedbacks .block .feedback-info-user .img {
+    margin-right: 20px;
+}
+
+.feedback-now .feedbacks .block .feedback-info-user .star {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.feedback-now .feedbacks .block p {
+    margin-top: 23px;
+}
+
+.feedback-now .points {
+    margin: 100px 0;
+}
+
+.feedback-now .feedback-arrows {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 70px;
+}
+
+.feedback-now .left-right {
+    display: flex;
+    align-items: center;
+}
+
+.feedback-now .feedback-arrows .left-right .right {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #DC7000;
+    border-radius: 150px;
+}
+
+.feedback-now .feedback-arrows .left-right .left {
+    cursor: pointer;
+    padding: 9px;
+    border: 2px #DC7000 solid;
+    border-radius: 150px;
+    margin-right: 20px;
+}
+
+/*====================== Новости ======================*/
+
+.hero-news h1 {
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+    margin: 70px 0 30px 0;
+}
+
+.hero-news p {
+    text-align: center;
+    font-weight: 500;
+}
+
+.news-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.news-search img {
+    cursor: pointer;
+    position: relative;
+    right: -45px;
+}
+
+.news-search input {
+    color: #fff;
+    background-color: #1C140F;
+    width: 300px;
+    padding: 12px 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 70px;
+}
+
+.news-search input::placeholder{
+    color: #fff;
+}
+
+/*Мэин инфо*/
+
+.news-main-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.news-main-info .news-left,
+.news-right {
+    width: 45%;
+}
+
+.news-main-info .autor-time {
+    display: flex;
+    align-items: center;
+}
+
+.news-main-info .autor-blue {
+    background-color: #2351F5;
+}
+
+.news-main-info .autor-pink {
+    background-color: #FF8484;
+}
+
+.news-main-info .autor-orange {
+    background-color: #FF7C32;
+}
+
+.news-main-info .autor-green {
+    background-color: #23A54F;
+}
+
+.news-main-info .autor-purple {
+    background-color: #9921C3;
+}
+
+.news-main-info .autor-time h3 {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 25px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.news-main-info .autor-time h4 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.news-main-info .news-left h2 {
+    font-size: 30px;
+    margin: 15px 0 30px 0;
+}
+
+.news-main-info .news-left p {
+    font-size: 17px;
+    margin: 35px 0;
+}
+
+.news-main-info .news-left h5 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.news-main-info .news-left hr {
+    color: #A5A5A5;
+    margin: 90px 0 ;
+}
+
+.news-main-info .news-right .block {
+    display: flex;
+    margin-bottom: 55px;
+}
+
+.news-main-info .news-right .block img {
+    margin-right: 50px;
+}
+
+.news-main-info .news-right .block h5 {
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.news-main-info .news-right .block .news-right-info{
+    margin: auto 0;
+}
+
+/*====================== Страница контакты ======================*/
 
 .hero-contacts h1 {
     text-align: center;
@@ -671,6 +1043,7 @@ margin: 40px 0;
     cursor: pointer;
     background: #961414;
 }
+
 
 /* Подвал */
 
