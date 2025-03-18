@@ -17,7 +17,7 @@ https://ypags.github.io/game-website/
 
 1. Склонировать репозиторий:
     ```bash
-    git clone <ссылка на репозиторий>
+    git clone https://github.com/Ypags/game-website.git
     ```
 
 2. Перейти в папку с проектом:
